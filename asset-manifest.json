@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ekatvam/static/css/main.afdec6ab.css",
+    "main.js": "/ekatvam/static/js/main.7cff589c.js",
+    "static/js/787.6c38fb51.chunk.js": "/ekatvam/static/js/787.6c38fb51.chunk.js",
+    "static/media/bg_image.jpeg": "/ekatvam/static/media/bg_image.044667c0f328873dc43e.jpeg",
+    "static/media/Spinner.gif": "/ekatvam/static/media/Spinner.b77be953882c1bb116fb.gif",
+    "index.html": "/ekatvam/index.html",
+    "main.afdec6ab.css.map": "/ekatvam/static/css/main.afdec6ab.css.map",
+    "main.7cff589c.js.map": "/ekatvam/static/js/main.7cff589c.js.map",
+    "787.6c38fb51.chunk.js.map": "/ekatvam/static/js/787.6c38fb51.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afdec6ab.css",
+    "static/js/main.7cff589c.js"
+  ]
+}
