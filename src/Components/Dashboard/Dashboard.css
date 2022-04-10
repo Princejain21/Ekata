@@ -1,0 +1,10 @@
+body {
+    background: url('../../Images/bg_image.jpeg') no-repeat center ;
+    background-size: cover;
+    height: 100% !important;
+    overflow-x: hidden !important;
+}
+html{
+      overflow-x: hidden !important;
+      height: 100% !important;
+  }

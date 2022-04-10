@@ -1,0 +1,7 @@
+ .navbar-light .navbar-nav .nav-link {
+    color: white !important;
+    font-size: large;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red !important;
+}
