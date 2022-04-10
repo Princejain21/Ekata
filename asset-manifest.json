@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ekata/static/css/main.7191af74.css",
-    "main.js": "/ekata/static/js/main.fc1f8777.js",
-    "static/js/787.6c38fb51.chunk.js": "/ekata/static/js/787.6c38fb51.chunk.js",
-    "static/media/bg_image.jpeg": "/ekata/static/media/bg_image.044667c0f328873dc43e.jpeg",
-    "static/media/Spinner.gif": "/ekata/static/media/Spinner.b77be953882c1bb116fb.gif",
-    "index.html": "/ekata/index.html",
-    "main.7191af74.css.map": "/ekata/static/css/main.7191af74.css.map",
-    "main.fc1f8777.js.map": "/ekata/static/js/main.fc1f8777.js.map",
-    "787.6c38fb51.chunk.js.map": "/ekata/static/js/787.6c38fb51.chunk.js.map"
+    "main.css": "/Ekata/static/css/main.247ffb7f.css",
+    "main.js": "/Ekata/static/js/main.4a40d774.js",
+    "static/js/787.6c38fb51.chunk.js": "/Ekata/static/js/787.6c38fb51.chunk.js",
+    "static/media/bg_image.jpeg": "/Ekata/static/media/bg_image.044667c0f328873dc43e.jpeg",
+    "static/media/Spinner.gif": "/Ekata/static/media/Spinner.b77be953882c1bb116fb.gif",
+    "index.html": "/Ekata/index.html",
+    "main.247ffb7f.css.map": "/Ekata/static/css/main.247ffb7f.css.map",
+    "main.4a40d774.js.map": "/Ekata/static/js/main.4a40d774.js.map",
+    "787.6c38fb51.chunk.js.map": "/Ekata/static/js/787.6c38fb51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7191af74.css",
-    "static/js/main.fc1f8777.js"
+    "static/css/main.247ffb7f.css",
+    "static/js/main.4a40d774.js"
   ]
 }
