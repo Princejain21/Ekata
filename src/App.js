@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import SignUp from './Components/Home/signUp/SignUp';
 import SignIn from './Components/Home/SignIn/SignIn';
@@ -10,6 +11,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Redirect
 } from "react-router-dom";
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
           <Route exact path='/create'><Create /></Route>
           <Route exact path='/dashboard/:id'><RedirectResult/></Route>
           <Route exact path='/Signup'><SignUp/></Route>
+          <Redirect exact  to='/dashboard'/>
         </Switch>
 
       </Router>

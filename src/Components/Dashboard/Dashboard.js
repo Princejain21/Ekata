@@ -2,14 +2,17 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios'
 import './Dashboard.css'
 import { Link } from 'react-router-dom';
+import Spinner from '../Spinner/Spinner';
 export default function Dashboard() {
   const [data, setdata] = useState([]);
+  const [spin,setspin]=useState(false)
 
   useEffect(() => {
     try {
       axios.get('https://jsonplaceholder.typicode.com/users').then(async (response) => {
         const fetchData = await response.data;
         setdata(fetchData)
+        setspin(true)
       })
     } catch (error) {
       console.log(error)
@@ -19,8 +22,7 @@ export default function Dashboard() {
   return (
     <>
       <h1 className='text-danger text-center'> All Feedback</h1>
-      <div>
-        <table className="table table-secondary  table-stripped table-borderless">
+    {!spin?<Spinner/>: <table className="table table-secondary  table-stripped table-borderless">
           <thead className="thead-dark">
             <tr className='lead'>
               <th>Name</th>
@@ -44,8 +46,9 @@ export default function Dashboard() {
             }) : null}
           </tbody>
         </table>
-
-      </div></>
+}
+       
+      </>
   )
 
 }
